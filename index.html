@@ -5,10 +5,27 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
 	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <body>
 
 <div class="container">
+	
+	<!-- Modal -->
+	<div class="modal fade" id="myModal" role="dialog">
+		<div class="modal-dialog modal-sm">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">&times;</button>
+				<h3 class="modal-title" id="winlose"></h3>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
 	<div class="row"> 
 		<div class="col-md-12">
 		<h1>Crystal Collector Game</h1>
@@ -16,24 +33,16 @@
 	</div>
 	<div class="row"> 
 		<div class="col-md-3">
-			<div id="crystal1">
-			<img class="pic" src="assets/images/diamond.jpg">
-			</div>
+			<img class="pic" id="crystal1" data-value="0" src="assets/images/diamond.jpg">
 		</div>
 		<div class="col-md-3">
-			<div id="crystal2">
-			<img class="pic" src="assets/images/emerald.jpg">
-			</div>
+			<img class="pic" id="crystal2" data-value="0" src="assets/images/emerald.jpg">
 		</div>
 		<div class="col-md-3">
-			<div id="crystal3">
-			<img class="pic" src="assets/images/ruby.jpg">
-			</div>
+			<img class="pic" id="crystal3" data-value="0" src="assets/images/ruby.jpg">
 		</div>
 		<div class="col-md-3">
-			<div id="crystal4">
-			<img class="pic" src="assets/images/sapphire.jpg">
-			</div>
+			<img class="pic" id="crystal4" data-value="0" src="assets/images/sapphire.jpg">
 		</div>
 	</div>
 	<div class="row"> 

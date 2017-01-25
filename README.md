@@ -1,3 +1,6 @@
-# week-4a-game
+Crystal Collector Game
+homework number 4, reccomended option
 
-crystal collector game made with html, bootstrap and jquery
+An interactive game for web browsers using jQuery
+
+Using html, bootstrap javascript & jquery
